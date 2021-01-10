@@ -7,9 +7,13 @@ import {User} from './entity/User';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+  opened=false;
+
   title = 'test-technique';
   listUsers:User[]=[];
-
+  constructor() {
+    document.body.style.background = 'rgba(100, 145, 175, 0.18)';
+}
   ngOnInit(): void {
 
   }
@@ -23,5 +27,7 @@ export class AppComponent implements OnInit{
   * @ToDo
   * */
   SaveListUsersInJson(){}
-
+  toggleSidebar(){
+    this.opened=  !this.opened;
+  }
 }

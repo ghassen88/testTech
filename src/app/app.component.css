@@ -1,0 +1,12 @@
+
+body{
+   background-color: burlywood;
+}
+
+
+.card{
+
+ display: block;
+    margin-left: 250px;
+    margin-top: 250px;
+    margin-right: auto }

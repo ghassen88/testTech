@@ -1,0 +1,20 @@
+{
+  "users":[
+      {
+      "id":1,
+      "NOM":"bensaid",
+      "PRENOM":"safa",
+      "NBRENFANTS":3
+      },
+      {
+        "id":2  ,
+        "NOM":"salhi",
+        "PRENOM":"sofien",
+        "NBRENFANTS":3
+        }
+
+  ]
+
+
+
+}

@@ -1,0 +1,13 @@
+.example-card {
+    max-width: 250px;
+    height: 300px;
+    border-radius: 12px;
+ }
+ .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
